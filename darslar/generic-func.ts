@@ -52,7 +52,6 @@
 //             callback(data.results.slice(0, 2))
 //         } catch (error) {
 //             console.log("Fetching error");
-            
 //         }
 //     }
 // }

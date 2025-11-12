@@ -72,5 +72,3 @@
 // } else {
 //     console.log("Age don't exist")
 // }
-
-

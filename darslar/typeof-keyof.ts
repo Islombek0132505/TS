@@ -1,44 +1,44 @@
-// typeof
+// // typeof
 
-const user = {
-    name: "Islombek",
-    age: 22,
-    education: {
-        univer: "TATU",
-        course: 3
-    }
-}
+// const user = {
+//     name: "Islombek",
+//     age: 22,
+//     education: {
+//         univer: "TATU",
+//         course: 3
+//     }
+// }
 
-type UserType = typeof user
+// type UserType = typeof user
 
-function getType(user: UserType) {
-    console.log(user)
-}
+// function getType(user: UserType) {
+//     console.log(user)
+// }
 
-getType(user)
+// getType(user)
 
-// keyof
+// // keyof
 
-type UserKeys = keyof typeof user
+// type UserKeys = keyof typeof user
 
-function getValue(key: UserKeys) {
-    console.log(user[key])
-}
+// function getValue(key: UserKeys) {
+//     console.log(user[key])
+// }
 
-getValue("name")
+// getValue("name")
 
 
-// practice
+// // practice
 
-const config = {
-    host: "https://2000/1231",
-    api: "api-success",
-    port: 3001,
-    deploy: true
-}
+// const config = {
+//     host: "https://2000/1231",
+//     api: "api-success",
+//     port: 3001,
+//     deploy: true
+// }
 
-function getConfigValue(keys: keyof typeof config) {
-    console.log(config[keys]);
-}
+// function getConfigValue(keys: keyof typeof config) {
+//     console.log(config[keys]);
+// }
 
-getConfigValue("port")
+// getConfigValue("port")
